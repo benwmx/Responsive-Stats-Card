@@ -51,8 +51,10 @@ p {
 		font-size: 2rem;
 	}
 	.container {
+		position: relative;
 		display: grid;
 		width: 90%;
+		top: 5rem;
 		min-height: 15rem;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: 1fr;
